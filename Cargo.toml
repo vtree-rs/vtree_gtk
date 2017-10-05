@@ -1,0 +1,19 @@
+[package]
+authors = ["Thomas Heck <t@b128.net>"]
+name = "vtree_gtk"
+version = "0.0.0"
+
+[dependencies]
+
+[dependencies.gtk]
+features = ["v3_22"]
+version = "0.1.3"
+
+[dependencies.vtree]
+path = "../vtree"
+
+[dependencies.vtree_macros]
+path = "../vtree/vtree_macros"
+
+[dependencies.vtree_markup]
+path = "../vtree/vtree_markup"
